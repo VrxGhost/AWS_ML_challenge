@@ -1,4 +1,3 @@
-[README (2).md](https://github.com/user-attachments/files/32877618/README.2.md)
 # Business Entity Resolution at Scale
 
 ### Amazon ML Challenge 2026 · Team **404 Founders**
