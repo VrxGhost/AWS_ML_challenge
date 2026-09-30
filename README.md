@@ -180,26 +180,6 @@ Every imperfect dev entity is assigned to exactly one failure bucket; the points
 
 ---
 
---|
-| config.py | Paths and global settings |
-| io_utils.py | Reading and writing the data files |
-| fix_source_files.py | Repairs broken lines in the raw data |
-| normalization.py, run_normalization.py | Name and address cleaning, transliteration |
-| blocking.py | Candidate generation (11 key types + TF-IDF ranking) |
-| check_blocking.py | Measures blocking recall for each key type |
-| features.py | The ~76 pair features |
-| model.py | LightGBM stages 1 and 2 |
-| train_dense.py | Dense, test-like training |
-| make_devset.py | Dense development set |
-| predict_lowmem.py | Slice-by-slice, per-country prediction |
-| stage3.py | Competition-aware re-scoring |
-| decide.py, tune_on_dev.py | Decision rules and the search for the best one |
-| loss_breakdown.py | Error analysis |
-| run_pipeline.py, run_all.py | Baseline pipeline |
-| run_combined.py, run_failsafe.py | End-to-end runner with crash-safe resume |
-
----
-
 ## 🚀 Running the Project
 
 The competition dataset is **not included** in this repository, as it belongs to the challenge organisers.
