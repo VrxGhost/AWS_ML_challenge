@@ -1,0 +1,7 @@
+numpy==2.5.3
+pandas==3.0.6
+scikit-learn==1.9.1
+lightgbm==4.7.0      # MIT; without it sklearn HistGradientBoosting is used (slower, a bit weaker)
+rapidfuzz==3.14.6    # MIT; without it string similarity falls back to pure Python (~20x slower)
+# unidecode is NOT used on purpose: it is GPL, and the built-in accent folding already handles
+# French / Latin accents. If you add it, install it on BOTH the train and predict machine.
